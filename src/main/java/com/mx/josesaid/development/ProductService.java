@@ -16,7 +16,6 @@ public class ProductService {
 
     public List<Product> getProducts(){
         return productJpaRepository.findAll();
-        //return "All the products";
     }
 
 }
