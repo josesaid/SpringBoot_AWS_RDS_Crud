@@ -26,6 +26,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
 
+            <!--
+            Notes:
+                1.- Comment this to be used on Beanstalk
+                2.- Enable it to run it locally (jar -jar SpringBootAwsRdsCrudApp-0.0.1-SNAPSHOT.war
+            -->
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
